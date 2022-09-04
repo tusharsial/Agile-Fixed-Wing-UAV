@@ -46,4 +46,8 @@ Variety of robust nonlinear control schemes have been presented in the literatur
 The motion of the UAV is now divided into two parts while designing the controllers. One is in Lateral-Directional motion and the Other is in Longitudinal direction motion. Both controllers will work simultaneously to provide the overall flight stability and desired motion. 
 
 # Simulation Results 
-The UAV was tested for a 180 degree horizontal turn maneuver. It was flying initially at a height of 1000 meters with an initial speed of 16.07m/s. The sideslip angle and Flight path angle were 0 intially. 
+The UAV was tested for a 180 degree horizontal turn maneuver. It was flying initially at a height of 1000 meters with an initial speed of 16.07m/s. The sideslip angle and Flight path angle were 0 intially. The complete simulation model was developed using MATLAB & Simulink as shown in the image given below: 
+
+![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Simulink%20Model.jpg)
+
+F
