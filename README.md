@@ -40,7 +40,8 @@ Variety of robust nonlinear control schemes have been presented in the literatur
 
   ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Flight%20Path%20Angle%20Eqn.jpg)  
   
-**Note:** Only the important equations have been presented here. The equations for the aerodynamic constants can be found easily in any literature. I've used the equation for them from the book titled "Small Unmanned Aircraft: Theory and Practice" by Randal W. Beard and Timothy W. McLain. 
+**Note:** Only the important equations have been presented here. The equations for the aerodynamic constants can be found easily in any literature. I've used the equation for them from the book [Small Unmanned Aircraft (2012).pdf](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/files/9485598/Small.Unmanned.Aircraft.2012.pdf) by Randal W. Beard and Timothy W. McLain. 
+
 
 # Controller & Observer Design 
 The motion of the UAV is now divided into two parts while designing the controllers. One is in Lateral-Directional motion and the Other is in Longitudinal direction motion. Both controllers will work simultaneously to provide the overall flight stability and desired motion. A wind observer has also been modelled for estimating the wind disturbances.
@@ -66,5 +67,11 @@ Following image presents the simulation results for a 180 degrees horizontal tur
 
 ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Simulation%20Results.jpg)
 
-# Video 
+# Simulation Video 
 This video shows the simulation of the UAV performing a 180 degrees horizontal turn maneuver. 
+
+https://user-images.githubusercontent.com/74113713/188335543-a0279f09-67d2-4ec2-a6ab-815ede3acb67.mp4
+
+# Future Scope
+* Execution of minimum radius turn maneuver.
+* Upgrading the model to include Center of Gravity Uncertainties. 
