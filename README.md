@@ -61,11 +61,11 @@ For running the simulation model:
 
 The complete simulation model was developed using MATLAB & Simulink as shown in the image given below: 
 
-![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Imagess/Simulink%20Model.jpg)
+![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Images/Simulink%20Model.jpg)
 
 Following image presents the simulation results for a 180 degrees horizontal turn maneuver for the UAV. While peforming the maneuver, a drop of 0.0001 meters in altitude and 0.6m/s in Velocity was observed. 
 
-![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/mainImages/Simulation%20Results.jpg)
+![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Images/Simulation%20Results.jpg)
 
 # Simulation Video 
 This video shows the simulation of the UAV performing a 180 degrees horizontal turn maneuver. 
