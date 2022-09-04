@@ -7,6 +7,15 @@ Variety of robust nonlinear control schemes have been presented in the literatur
 # Aircraft Model 
 ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Aircraft%20Dynamics.jpg?raw=true)
 * Translational Kinematic Equations 
+  
+  The translational kinematics equations are given below: 
+
+  ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Translational%20Kinematic%20Equations.jpg)
+  
+  where, H is flight altitude, Y is lateral deviation wrt the runway, X is the horizontal displacement
 * Translational Dynamic Equations
+
+  The translational dynamic equations describing the components of the velocity relative to the UAV-based body fixed reference frame are: 
+  
 * Rotational Kinematic Equations 
 * Rotational Dynamic Equations
