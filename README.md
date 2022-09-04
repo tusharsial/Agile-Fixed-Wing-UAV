@@ -56,6 +56,7 @@ For running the simulation model:
 * Run the Trim_sym_main.m file first. 
 * After this, run Constants_sym.m file. 
 * Finally, open the Horizontal_Turn_Symmetric_DOP.mdl and then run the model
+* **Note:** Additionally, you'll be required to download Aerospace Blockset. 
 
 The complete simulation model was developed using MATLAB & Simulink as shown in the image given below: 
 
@@ -64,3 +65,6 @@ The complete simulation model was developed using MATLAB & Simulink as shown in 
 Following image presents the simulation results for a 180 degrees horizontal turn maneuver for the UAV. While peforming the maneuver, a drop of 0.0001 meters in altitude and 0.6m/s in Velocity was observed. 
 
 ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Simulation%20Results.jpg)
+
+# Video 
+This video shows the simulation of the UAV performing a 180 degrees horizontal turn maneuver. 
