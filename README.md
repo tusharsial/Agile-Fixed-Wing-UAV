@@ -46,6 +46,31 @@ Variety of robust nonlinear control schemes have been presented in the literatur
 # Controller & Observer Design 
 The motion of the UAV is now divided into two parts while designing the controllers. One is in Lateral-Directional motion and the Other is in Longitudinal direction motion. Both controllers will work simultaneously to provide the overall flight stability and desired motion. A wind observer has also been modelled for estimating the wind disturbances.
 
+* Lateral-Directional Controller
+
+  Assumptions that we've taken while designing this controller: 
+  
+  * Aerodynamic angles - alpha and beta remains small.
+  * Roll rate (p) remains small.
+  * Pitch rate (q) remains very small during lateral-directional maneuvers.
+  * Total velocity V is maintained constant 
+  * Basically, while designing Lateral-Directional Controller, **we’ve ignored the longitudinal dynamics.**
+  
+  **State variables:** phi, beta, p, r.
+  
+  **Control Inputs:** dela (aeileron deflection) and delr (rudder deflection). 
+  
+* Longitudinal Controller
+
+  While designing this controller, we'll ignore the lateral-directional dynamics.
+  
+  **State vectors:** v, alpha, gamma, theta, q.
+  
+  **Control Inputs:** delT (Throttle i/p - velocity controller) and delE (Elevator delfection - Flight path angle controller).
+  
+**Note:** For referring to the equations of the Controllers, you can refer to the following presentation. 
+https://docs.google.com/presentation/d/1c6U61U5BCYlcwXmJR-q57A_kSxaiEpe3V4xSZbWlwo0/edit#slide=id.g108a4b7ca6c_1_86
+
 # Simulation Results 
 The UAV was tested for a 180 degree horizontal turn maneuver. It was flying initially at a height of 1000 meters with an initial speed of 16.07m/s. The sideslip angle and Flight path angle were 0 intially. Wind disturbance has also been added as external disturbance while designing the model. For simulation, three types of winds have been modelled - wind shears, atmospheric disturbances (described by Dryden Spectral model - Wind turbulence) and wind gusts. 
 
