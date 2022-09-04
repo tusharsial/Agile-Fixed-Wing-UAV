@@ -42,12 +42,22 @@ Variety of robust nonlinear control schemes have been presented in the literatur
   
 **Note:** Only the important equations have been presented here. The equations for the aerodynamic constants can be found easily in any literature. I've used the equation for them from the book titled "Small Unmanned Aircraft: Theory and Practice" by Randal W. Beard and Timothy W. McLain. 
 
-# Controller Design 
-The motion of the UAV is now divided into two parts while designing the controllers. One is in Lateral-Directional motion and the Other is in Longitudinal direction motion. Both controllers will work simultaneously to provide the overall flight stability and desired motion. 
+# Controller & Observer Design 
+The motion of the UAV is now divided into two parts while designing the controllers. One is in Lateral-Directional motion and the Other is in Longitudinal direction motion. Both controllers will work simultaneously to provide the overall flight stability and desired motion. A wind observer has also been modelled for estimating the wind disturbances.
 
 # Simulation Results 
-The UAV was tested for a 180 degree horizontal turn maneuver. It was flying initially at a height of 1000 meters with an initial speed of 16.07m/s. The sideslip angle and Flight path angle were 0 intially. The complete simulation model was developed using MATLAB & Simulink as shown in the image given below: 
+The UAV was tested for a 180 degree horizontal turn maneuver. It was flying initially at a height of 1000 meters with an initial speed of 16.07m/s. The sideslip angle and Flight path angle were 0 intially. Wind disturbance has also been added as external disturbance while designing the model. For simulation, three types of winds have been modelled - wind shears, atmospheric disturbances (described by Dryden Spectral model - Wind turbulence) and wind gusts. 
+
+For running the simulation model: 
+* Download the "MATLAB & Simulink" Folder onto your computer. 
+* Run the Trim_sym_main.m file first. 
+* After this, run Constants_sym.m file. 
+* Finally, open the Horizontal_Turn_Symmetric_DOP.mdl and then run the model
+
+The complete simulation model was developed using MATLAB & Simulink as shown in the image given below: 
 
 ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Simulink%20Model.jpg)
 
-F
+Following image presents the simulation results for a 180 degrees horizontal turn maneuver for the UAV. While peforming the maneuver, a drop of 0.0001 meters in altitude and 0.6m/s in Velocity was observed. 
+
+![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Simulation%20Results.jpg)
