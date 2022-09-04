@@ -5,3 +5,8 @@ Interest in use of autonomous flight vehicles for defense as well as commercial 
 Variety of robust nonlinear control schemes have been presented in the literature which do not require cancellation of all the nonlinearities. Backstepping is one such approach. Backstepping provides a novel way of recursively designing a controller by considering some of the states as virtual control input. In this way, it simplifies the control design process for higher order nonlinear systems such as an aircraft. 
 
 # Aircraft Model 
+![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Aircraft%20Dynamics.jpg?raw=true)
+* Translational Kinematic Equations 
+* Translational Dynamic Equations
+* Rotational Kinematic Equations 
+* Rotational Dynamic Equations
