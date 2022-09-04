@@ -56,7 +56,7 @@ For running the simulation model:
 * Run the Trim_sym_main.m file first. 
 * After this, run Constants_sym.m file. 
 * Finally, open the Horizontal_Turn_Symmetric_DOP.mdl and then run the model
-* **Note:** Additionally, you'll be required to download Aerospace Blockset. 
+* **Note:** Additionally, you'll be required to download Aerospace Blockset in order to run the Simulink model. 
 
 The complete simulation model was developed using MATLAB & Simulink as shown in the image given below: 
 
