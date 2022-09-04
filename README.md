@@ -38,4 +38,12 @@ Variety of robust nonlinear control schemes have been presented in the literatur
   
 * Flight Path Angle Equation 
 
+  ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Flight%20Path%20Angle%20Eqn.jpg)  
   
+**Note:** Only the important equations have been presented here. The equations for the aerodynamic constants can be found easily in any literature. I've used the equation for them from the book titled "Small Unmanned Aircraft: Theory and Practice" by Randal W. Beard and Timothy W. McLain. 
+
+# Controller Design 
+The motion of the UAV is now divided into two parts while designing the controllers. One is in Lateral-Directional motion and the Other is in Longitudinal direction motion. Both controllers will work simultaneously to provide the overall flight stability and desired motion. 
+
+# Simulation Results 
+The UAV was tested for a 180 degree horizontal turn maneuver. It was flying initially at a height of 1000 meters with an initial speed of 16.07m/s. The sideslip angle and Flight path angle were 0 intially. 
