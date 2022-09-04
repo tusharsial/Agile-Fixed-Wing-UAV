@@ -27,3 +27,7 @@ Variety of robust nonlinear control schemes have been presented in the literatur
   ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Rotational%20Kinematics%20Equation.jpg)
   
 * Rotational Dynamic Equations
+  
+  The rotational dynamics equations describing roll, pitch and yaw angular rates wrt UAV based body-fixed frame reference frame are:
+  
+  ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Rotational%20Dynamics%20Equation.jpg)
