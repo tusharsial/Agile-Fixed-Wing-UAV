@@ -31,3 +31,11 @@ Variety of robust nonlinear control schemes have been presented in the literatur
   The rotational dynamics equations describing roll, pitch and yaw angular rates wrt UAV based body-fixed frame reference frame are:
   
   ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Rotational%20Dynamics%20Equation.jpg)
+  
+* Relationship between Components of Velocity vector, Angle of attack and Side Slip angles
+
+  ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Relationship%20btn%20V%2C%20alpha%20and%20Beta.jpg)
+  
+* Flight Path Angle Equation 
+
+  
