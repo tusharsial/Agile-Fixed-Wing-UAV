@@ -44,7 +44,7 @@ Variety of robust nonlinear control schemes have been presented in the literatur
 
 
 # Controller & Observer Design 
-The motion of the UAV is now divided into two parts while designing the controllers. One is in Lateral-Directional motion and the Other is in Longitudinal direction motion. Both controllers will work simultaneously to provide the overall flight stability and desired motion. A wind observer has also been modelled for estimating the wind disturbances.
+The motion of the UAV is now divided into two parts while designing the controllers. One is in Lateral-Directional motion and the Other is in Longitudinal direction motion. Backstepping approach has been used to design the controllers. Both controllers will work simultaneously to provide the overall flight stability and desired motion. A wind observer has also been modelled for estimating the wind disturbances.
 
 Following image is a schematic of the controller and observer design for the UAV: 
 
