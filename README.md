@@ -49,6 +49,9 @@ The motion of the UAV is now divided into two parts while designing the controll
 The UAV was tested for a 180 degree horizontal turn maneuver. It was flying initially at a height of 1000 meters with an initial speed of 16.07m/s. The sideslip angle and Flight path angle were 0 intially. Wind disturbance has also been added as external disturbance while designing the model. For simulation, three types of winds have been modelled - wind shears, atmospheric disturbances (described by Dryden Spectral model - Wind turbulence) and wind gusts. 
 
 For running the simulation model: 
+
+![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Model%20Running%20Instructions.jpg)
+
 * Download the "MATLAB & Simulink" Folder onto your computer. 
 * Run the Trim_sym_main.m file first. 
 * After this, run Constants_sym.m file. 
