@@ -12,10 +12,17 @@ Variety of robust nonlinear control schemes have been presented in the literatur
 
   ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Translational%20Kinematic%20Equations.jpg)
   
-  where, H is flight altitude, Y is lateral deviation wrt the runway, X is the horizontal displacement
+  where, H is flight altitude, Y is lateral deviation wrt the runway, X is the horizontal displacement; u,v,w are components of the velocity vector of UAV; phi, theta, psi are attitude angles (roll, pitch and yaw respectively). 
 * Translational Dynamic Equations
 
   The translational dynamic equations describing the components of the velocity relative to the UAV-based body fixed reference frame are: 
   
+  ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Translational%20Dynamics%20Equations.jpg)
+  
+  where p,q,r are the roll, pitch and yaw angular rates; g is gravitational constant, m is the mass of the UAV, Va is velocity magnitude of the UAV (Va = sqrt(u^2 + v^2 + w^2)), rho is air density (depending on altitude), S is wing area, b is wing span, c is aerodynamic mean chord; delt is throttle input (varying between 0 and 1), delr is rudder deflection, dele is elevator delfection.   
 * Rotational Kinematic Equations 
+
+  The rotational kinematic equations of the UAV are as follows: 
+  
+  
 * Rotational Dynamic Equations
