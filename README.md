@@ -24,5 +24,6 @@ Variety of robust nonlinear control schemes have been presented in the literatur
 
   The rotational kinematic equations of the UAV are as follows: 
   
+  ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Matlab%20%26%20Simulink%20Files/Rotational%20Kinematics%20Equation.jpg)
   
 * Rotational Dynamic Equations
