@@ -84,14 +84,14 @@ For running the simulation model:
 * Download the "MATLAB & Simulink" Folder onto your computer. 
 * Run the Trim_sym_main.m file first. 
 * After this, run Constants_sym.m file. 
-* Finally, open the Horizontal_Turn_Symmetric_DOP.mdl and then run the model
+* Finally, open the Horizontal_Turn_Symmetric_DOP.mdl and then run the model.
 * **Note:** Additionally, you'll be required to download Aerospace Blockset in order to run the Simulink model. 
 
 The complete simulation model was developed using MATLAB & Simulink as shown in the image given below: 
 
 ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Images/Simulink%20Model.jpg)
 
-Following image presents the simulation results for a 180 degrees horizontal turn maneuver for the UAV. While peforming the maneuver, a drop of 0.0001 meters in altitude and 0.6m/s in Velocity was observed. 
+Following image presents the simulation results for a 180 degrees horizontal turn maneuver for the UAV. While peforming the maneuver, a drop of 0.0001 meters in altitude and 0.6m/s in Velocity were observed. The UAV was successfully able to complete the maneuver with minimal errors, even in the presence of wind disturbance which proved the high performance and robustness of the controllers. 
 
 ![alt text](https://github.com/tusharsial/Flight-Dynamics-Controls-UAV-/blob/main/Images/Simulation%20Results.jpg)
 
@@ -103,3 +103,4 @@ https://user-images.githubusercontent.com/74113713/188335543-a0279f09-67d2-4ec2-
 # Future Scope
 * Execution of minimum radius turn maneuver.
 * Upgrading the model to include Center of Gravity Uncertainties. 
+* Other Control Design techniques (like Sliding Mode Control, Adaptive Controllers, etc.) can be looked into in order to improve the performance. 
