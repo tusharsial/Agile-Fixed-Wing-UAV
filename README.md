@@ -71,7 +71,7 @@ Following image is a schematic of the controller and observer design for the UAV
   
   **Control Inputs:** delT (Throttle i/p - velocity controller) and delE (Elevator delfection - Flight path angle controller).
   
-**Note:** For referring to the equations of the Controllers, you can refer to the following presentation. 
+**Note:** For the equations of the Controllers, you can refer to the following presentation. 
 https://docs.google.com/presentation/d/1c6U61U5BCYlcwXmJR-q57A_kSxaiEpe3V4xSZbWlwo0/edit#slide=id.g108a4b7ca6c_1_86
 
 # Simulation Results 
